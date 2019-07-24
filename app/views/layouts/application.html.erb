@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Groepspraktijk JUNO - psychologen Dilbeek</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta name="description" content="Wij bieden psychotherapie, vorming & coaching aan individuen, koppels, gezinnen & bedrijven.">
+    <meta property="og:title" content="Groepspraktijk JUNO - psychologen Dilbeek">
+    <meta property="og:image" content="XXX.jpg">
+    <!-- afbeelding te kiezen -->
+    <meta property="og:description" content="Wij bieden psychotherapie, vorming & coaching aan individuen, koppels, gezinnen & bedrijven.">
+    <meta property="og:site_name" content="Groepspraktijk JUNO"/>
+    <meta charset="utf-8">
+    <!-- optie: twitter toevoegen: https://kitt.lewagon.com/knowledge/lectures/04-Front-End%2F01-HTML-and-CSS#/0/3/11 -->
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+
+    </div>
+
+    <!-- mobile navbar -->
+    <div class="navbar-mobile hidden-md hidden-lg">
+
+    <!-- yield pages -->
+    </div>
+    <div class="container" style="">
+      <%= yield %>
+    </div>
+
+  </body>
+</html>
+<!-- end of file -->
+
